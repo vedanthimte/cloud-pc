@@ -2,6 +2,7 @@
 # Script Autor : VEDANT HIMTE
 #Here i am using zerotier service i you want to use add your network id .
 
+sudo apt update && sudo apt upgrade -y
 curl -s https://install.zerotier.com | sudo bash
 
 sudo echo 'alias start="sudo service zerotier-one restart"' >> /root/.bashrc
